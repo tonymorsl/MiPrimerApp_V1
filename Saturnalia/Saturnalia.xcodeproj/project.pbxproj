@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A25B7B7829E7448D007D3F18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25B7B7729E7448D007D3F18 /* AppDelegate.swift */; };
+		A25B7B7A29E7448D007D3F18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25B7B7929E7448D007D3F18 /* SceneDelegate.swift */; };
+		A25B7B7C29E7448D007D3F18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25B7B7B29E7448D007D3F18 /* ViewController.swift */; };
+		A25B7B7F29E7448D007D3F18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A25B7B7D29E7448D007D3F18 /* Main.storyboard */; };
+		A25B7B8229E7448D007D3F18 /* Saturnalia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A25B7B8029E7448D007D3F18 /* Saturnalia.xcdatamodeld */; };
+		A25B7B8429E7448E007D3F18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A25B7B8329E7448E007D3F18 /* Assets.xcassets */; };
+		A25B7B8729E7448E007D3F18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A25B7B8529E7448E007D3F18 /* LaunchScreen.storyboard */; };
+		A25B7B9229E7448E007D3F18 /* SaturnaliaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25B7B9129E7448E007D3F18 /* SaturnaliaTests.swift */; };
+		A25B7B9C29E7448E007D3F18 /* SaturnaliaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25B7B9B29E7448E007D3F18 /* SaturnaliaUITests.swift */; };
+		A25B7B9E29E7448E007D3F18 /* SaturnaliaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25B7B9D29E7448E007D3F18 /* SaturnaliaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A25B7B8E29E7448E007D3F18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A25B7B6C29E7448D007D3F18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A25B7B7329E7448D007D3F18;
+			remoteInfo = Saturnalia;
+		};
+		A25B7B9829E7448E007D3F18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A25B7B6C29E7448D007D3F18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A25B7B7329E7448D007D3F18;
+			remoteInfo = Saturnalia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A25B7B7429E7448D007D3F18 /* Saturnalia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Saturnalia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A25B7B7729E7448D007D3F18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A25B7B7929E7448D007D3F18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A25B7B7B29E7448D007D3F18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A25B7B7E29E7448D007D3F18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A25B7B8129E7448D007D3F18 /* Saturnalia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Saturnalia.xcdatamodel; sourceTree = "<group>"; };
+		A25B7B8329E7448E007D3F18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A25B7B8629E7448E007D3F18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A25B7B8829E7448E007D3F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A25B7B8D29E7448E007D3F18 /* SaturnaliaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaturnaliaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A25B7B9129E7448E007D3F18 /* SaturnaliaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaturnaliaTests.swift; sourceTree = "<group>"; };
+		A25B7B9729E7448E007D3F18 /* SaturnaliaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaturnaliaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A25B7B9B29E7448E007D3F18 /* SaturnaliaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaturnaliaUITests.swift; sourceTree = "<group>"; };
+		A25B7B9D29E7448E007D3F18 /* SaturnaliaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaturnaliaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A25B7B7129E7448D007D3F18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A25B7B8A29E7448E007D3F18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A25B7B9429E7448E007D3F18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A25B7B6B29E7448D007D3F18 = {
+			isa = PBXGroup;
+			children = (
+				A25B7B7629E7448D007D3F18 /* Saturnalia */,
+				A25B7B9029E7448E007D3F18 /* SaturnaliaTests */,
+				A25B7B9A29E7448E007D3F18 /* SaturnaliaUITests */,
+				A25B7B7529E7448D007D3F18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A25B7B7529E7448D007D3F18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A25B7B7429E7448D007D3F18 /* Saturnalia.app */,
+				A25B7B8D29E7448E007D3F18 /* SaturnaliaTests.xctest */,
+				A25B7B9729E7448E007D3F18 /* SaturnaliaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A25B7B7629E7448D007D3F18 /* Saturnalia */ = {
+			isa = PBXGroup;
+			children = (
+				A25B7B7729E7448D007D3F18 /* AppDelegate.swift */,
+				A25B7B7929E7448D007D3F18 /* SceneDelegate.swift */,
+				A25B7B7B29E7448D007D3F18 /* ViewController.swift */,
+				A25B7B7D29E7448D007D3F18 /* Main.storyboard */,
+				A25B7B8329E7448E007D3F18 /* Assets.xcassets */,
+				A25B7B8529E7448E007D3F18 /* LaunchScreen.storyboard */,
+				A25B7B8829E7448E007D3F18 /* Info.plist */,
+				A25B7B8029E7448D007D3F18 /* Saturnalia.xcdatamodeld */,
+			);
+			path = Saturnalia;
+			sourceTree = "<group>";
+		};
+		A25B7B9029E7448E007D3F18 /* SaturnaliaTests */ = {
+			isa = PBXGroup;
+			children = (
+				A25B7B9129E7448E007D3F18 /* SaturnaliaTests.swift */,
+			);
+			path = SaturnaliaTests;
+			sourceTree = "<group>";
+		};
+		A25B7B9A29E7448E007D3F18 /* SaturnaliaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A25B7B9B29E7448E007D3F18 /* SaturnaliaUITests.swift */,
+				A25B7B9D29E7448E007D3F18 /* SaturnaliaUITestsLaunchTests.swift */,
+			);
+			path = SaturnaliaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A25B7B7329E7448D007D3F18 /* Saturnalia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A25B7BA129E7448E007D3F18 /* Build configuration list for PBXNativeTarget "Saturnalia" */;
+			buildPhases = (
+				A25B7B7029E7448D007D3F18 /* Sources */,
+				A25B7B7129E7448D007D3F18 /* Frameworks */,
+				A25B7B7229E7448D007D3F18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Saturnalia;
+			productName = Saturnalia;
+			productReference = A25B7B7429E7448D007D3F18 /* Saturnalia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A25B7B8C29E7448E007D3F18 /* SaturnaliaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A25B7BA429E7448E007D3F18 /* Build configuration list for PBXNativeTarget "SaturnaliaTests" */;
+			buildPhases = (
+				A25B7B8929E7448E007D3F18 /* Sources */,
+				A25B7B8A29E7448E007D3F18 /* Frameworks */,
+				A25B7B8B29E7448E007D3F18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A25B7B8F29E7448E007D3F18 /* PBXTargetDependency */,
+			);
+			name = SaturnaliaTests;
+			productName = SaturnaliaTests;
+			productReference = A25B7B8D29E7448E007D3F18 /* SaturnaliaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A25B7B9629E7448E007D3F18 /* SaturnaliaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A25B7BA729E7448E007D3F18 /* Build configuration list for PBXNativeTarget "SaturnaliaUITests" */;
+			buildPhases = (
+				A25B7B9329E7448E007D3F18 /* Sources */,
+				A25B7B9429E7448E007D3F18 /* Frameworks */,
+				A25B7B9529E7448E007D3F18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A25B7B9929E7448E007D3F18 /* PBXTargetDependency */,
+			);
+			name = SaturnaliaUITests;
+			productName = SaturnaliaUITests;
+			productReference = A25B7B9729E7448E007D3F18 /* SaturnaliaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A25B7B6C29E7448D007D3F18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A25B7B7329E7448D007D3F18 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					A25B7B8C29E7448E007D3F18 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A25B7B7329E7448D007D3F18;
+					};
+					A25B7B9629E7448E007D3F18 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A25B7B7329E7448D007D3F18;
+					};
+				};
+			};
+			buildConfigurationList = A25B7B6F29E7448D007D3F18 /* Build configuration list for PBXProject "Saturnalia" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A25B7B6B29E7448D007D3F18;
+			productRefGroup = A25B7B7529E7448D007D3F18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A25B7B7329E7448D007D3F18 /* Saturnalia */,
+				A25B7B8C29E7448E007D3F18 /* SaturnaliaTests */,
+				A25B7B9629E7448E007D3F18 /* SaturnaliaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A25B7B7229E7448D007D3F18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A25B7B8729E7448E007D3F18 /* LaunchScreen.storyboard in Resources */,
+				A25B7B8429E7448E007D3F18 /* Assets.xcassets in Resources */,
+				A25B7B7F29E7448D007D3F18 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A25B7B8B29E7448E007D3F18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A25B7B9529E7448E007D3F18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A25B7B7029E7448D007D3F18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A25B7B7C29E7448D007D3F18 /* ViewController.swift in Sources */,
+				A25B7B7829E7448D007D3F18 /* AppDelegate.swift in Sources */,
+				A25B7B7A29E7448D007D3F18 /* SceneDelegate.swift in Sources */,
+				A25B7B8229E7448D007D3F18 /* Saturnalia.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A25B7B8929E7448E007D3F18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A25B7B9229E7448E007D3F18 /* SaturnaliaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A25B7B9329E7448E007D3F18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A25B7B9E29E7448E007D3F18 /* SaturnaliaUITestsLaunchTests.swift in Sources */,
+				A25B7B9C29E7448E007D3F18 /* SaturnaliaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A25B7B8F29E7448E007D3F18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A25B7B7329E7448D007D3F18 /* Saturnalia */;
+			targetProxy = A25B7B8E29E7448E007D3F18 /* PBXContainerItemProxy */;
+		};
+		A25B7B9929E7448E007D3F18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A25B7B7329E7448D007D3F18 /* Saturnalia */;
+			targetProxy = A25B7B9829E7448E007D3F18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A25B7B7D29E7448D007D3F18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A25B7B7E29E7448D007D3F18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A25B7B8529E7448E007D3F18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A25B7B8629E7448E007D3F18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A25B7B9F29E7448E007D3F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A25B7BA029E7448E007D3F18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A25B7BA229E7448E007D3F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Saturnalia/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FCA.Saturnalia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A25B7BA329E7448E007D3F18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Saturnalia/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FCA.Saturnalia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A25B7BA529E7448E007D3F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FCA.SaturnaliaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Saturnalia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Saturnalia";
+			};
+			name = Debug;
+		};
+		A25B7BA629E7448E007D3F18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FCA.SaturnaliaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Saturnalia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Saturnalia";
+			};
+			name = Release;
+		};
+		A25B7BA829E7448E007D3F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FCA.SaturnaliaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Saturnalia;
+			};
+			name = Debug;
+		};
+		A25B7BA929E7448E007D3F18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FCA.SaturnaliaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Saturnalia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A25B7B6F29E7448D007D3F18 /* Build configuration list for PBXProject "Saturnalia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A25B7B9F29E7448E007D3F18 /* Debug */,
+				A25B7BA029E7448E007D3F18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A25B7BA129E7448E007D3F18 /* Build configuration list for PBXNativeTarget "Saturnalia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A25B7BA229E7448E007D3F18 /* Debug */,
+				A25B7BA329E7448E007D3F18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A25B7BA429E7448E007D3F18 /* Build configuration list for PBXNativeTarget "SaturnaliaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A25B7BA529E7448E007D3F18 /* Debug */,
+				A25B7BA629E7448E007D3F18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A25B7BA729E7448E007D3F18 /* Build configuration list for PBXNativeTarget "SaturnaliaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A25B7BA829E7448E007D3F18 /* Debug */,
+				A25B7BA929E7448E007D3F18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A25B7B8029E7448D007D3F18 /* Saturnalia.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A25B7B8129E7448D007D3F18 /* Saturnalia.xcdatamodel */,
+			);
+			currentVersion = A25B7B8129E7448D007D3F18 /* Saturnalia.xcdatamodel */;
+			path = Saturnalia.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A25B7B6C29E7448D007D3F18 /* Project object */;
+}
